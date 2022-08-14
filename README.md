@@ -10,8 +10,7 @@ The players in turn present their guesses to the opponents. The opponents respon
 1. The number of bulls, i.e. the number of matching digits in their right positions, and
 2. The number of cows, i.e. the number of matching digits but in different positions.
 
-![alt text](bc-first.PNG "Example Output 1")
-
+![CowsAndBullsEasy.jpg](CowsAndBullsInitialUML.jpg)
 
 ### Requirements
 The main goal of this assignment is to develop the bulls and cows game that allows a single player to play interactively against the computer. 
@@ -25,7 +24,7 @@ The main goal of this assignment is to develop the bulls and cows game that allo
 
 ## Initial Design
 
-![CowsAndBullsInitialUML.jpg](CowsAndBullsInitialUML.jpg)
+![DemoEasyLevel.gif](DemoEasyLevel.gif)
 
 In the initial design, there were incorrect arrows for the interface. I need to be careful when using an unfamiliar drawing package. 
 
