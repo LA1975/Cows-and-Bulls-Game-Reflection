@@ -23,17 +23,19 @@ The main goal of this assignment is to develop the bulls and cows game that allo
 - There are three levels: easy, medium and hard. 
 - The game can read from a text file that contains multiple guesses from the player, and save the results to another text file.
 
-<img src="DemoEasyLevel.gif" alt="video of easy level demo" width="250"/>
+<p align="center"><img src="DemoEasyLevel.gif" alt="video of easy level demo" width="400"/></p>
 
 ## Initial Design
 
-![CowsAndBullsEasy.jpg](CowsAndBullsInitialUML.jpg)
+<p align="center"><img src="CowsAndBullsInitialUML.jpg" alt="UML diagram of initial design" width="400"/></p>
+
 
 In the initial design, there were incorrect arrows for the interface. I need to be careful when using an unfamiliar drawing package. 
 
 Originally, I had SecretCode and Guesses as separate classes and subclass, my feedback was that they would have similar methods and to merge them into one to avoid unnecessary duplication. Also, split up the computer class into three subclasses for the difficulty levels to minimise the need for if-else statements.
 
-![CowsAndBullsRevisedUML.jpg](CowsAndBullsRevisedUML.jpg)
+<p align="center"><img src="CowsAndBullsRevisedUML.jpg" alt="UML diagram of revised design" width="400" /></p>
+
 
 ## Changes to the Initial Design
 ### Game Class
@@ -81,8 +83,7 @@ This was more challenging to work out than I anticipated due to not being able t
 worked with other settings however if they were increased the processing time was exponentially increased due to the large number of possible combinations generated. 
 
 ### Final UML Diagram
-
-![CowsAndBullsFinalUML.jpg](CowsAndBullsFinalUML.jpg)
+<p align="center"><img src="CowsAndBullsFinalUML.jpg" alt="UML diagram of final design" width="400" /></p>
 
 ## LEARNINGS
 I learnt an immense amount from this assignment. It consolidated my understand on how the classes interact with each other especially how to reference methods from other classes. I had not fully grasped the need to create new instances of the classes you need to access methods from until this assignment.
