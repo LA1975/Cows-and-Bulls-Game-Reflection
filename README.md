@@ -23,7 +23,7 @@ The main goal of this assignment is to develop the bulls and cows game that allo
 - There are three levels: easy, medium and hard. 
 - The game can read from a text file that contains multiple guesses from the player, and save the results to another text file.
 
-![DemoEasyLevel.gif](DemoEasyLevel.gif)
+<img src="DemoEasyLevel.gif" alt="video of easy level demo" width="250"/>
 
 ## Initial Design
 
